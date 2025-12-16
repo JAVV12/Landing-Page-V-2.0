@@ -406,7 +406,7 @@ export default function Home() {
 
           <div className="mb-8 sm:mb-10 md:mb-12">
             <a href="#checkout" className="btn-primary inline-block text-center animate-pulse-primary text-lg sm:text-xl md:text-2xl lg:text-3xl px-6 sm:px-10 md:px-12 lg:px-16 py-4 sm:py-6 md:py-7 lg:py-8">
-              <span className="inline mr-2">🚀</span>
+              
               <span className="whitespace-nowrap">INSCRIBIRME CON PAGO ÚNICO</span>
             </a>
           </div>
@@ -414,15 +414,15 @@ export default function Home() {
           {/* Badges de confianza */}
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
             <span className="bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
-              <span className="inline mr-1 sm:mr-2">🎓</span>
+              
               <span className="whitespace-nowrap">FORMACIÓN 100% EN LÍNEA</span>
             </span>
             <span className="bg-secondary text-dark px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
-              <span className="inline mr-1 sm:mr-2">⚡</span>
+              
               <span className="whitespace-nowrap">ACCESO INMEDIATO</span>
             </span>
             <span className="bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
-              <span className="inline mr-1 sm:mr-2">🛡️</span>
+              
               <span className="whitespace-nowrap">GARANTÍA CERO RIESGO DE 7 DÍAS</span>
             </span>
           </div>
