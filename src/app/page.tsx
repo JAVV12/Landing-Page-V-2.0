@@ -126,7 +126,7 @@ export default function Home() {
             {/* Problema 1 */}
             <div className="bg-gray-800 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-primary/20 hover-primary">
               <div className="flex items-center mb-6">
-                <img src="https://img.icons8.com/ios-filled/48/ffffff/money.png" alt="Dinero volando" className="w-12 h-12 mr-4" />
+                <span className="text-primary font-bold text-2xl mr-4">💰</span>
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary">HEMORRAGIA SILENCIOSA</h3>
               </div>
               <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
@@ -347,9 +347,9 @@ export default function Home() {
               </div>
               <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black mb-3 sm:mb-4 text-primary">Plantilla Maestra "Cash Flow Switch" (Fórmula #2)</h3>
               <ul className="space-y-2 mb-4 sm:mb-6 text-gray-700 text-xs sm:text-sm md:text-base">
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />La herramienta que detiene la fuga de dinero HOY.</li>
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Diseñada para el CEO, no para el contador.</li>
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Garantiza la claridad total de tu margen de ganancia real.</li>
+                <li><span className="inline mr-2">✅</span>La herramienta que detiene la fuga de dinero HOY.</li>
+                <li><span className="inline mr-2">✅</span>Diseñada para el CEO, no para el contador.</li>
+                <li><span className="inline mr-2">✅</span>Garantiza la claridad total de tu margen de ganancia real.</li>
               </ul>
               <div className="bg-primary text-secondary p-2 sm:p-3 rounded-lg font-bold text-center text-xs sm:text-sm md:text-base">
                 VALORADO EN MÁS DE $97 USD GRATIS CON TU INSCRIPCIÓN
@@ -363,9 +363,9 @@ export default function Home() {
               </div>
               <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black mb-3 sm:mb-4 text-primary">Checklist Anti-Competencia de Precios (Fórmula #1)</h3>
               <ul className="space-y-2 mb-4 sm:mb-6 text-gray-700 text-xs sm:text-sm md:text-base">
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />5 pasos para blindar tu valor y subir tus precios en 48 horas.</li>
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Guía de Neuro-Persuasión para justificar tu Autoridad.</li>
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Lista de chequeo de la Identidad que Cobra Caro (NEXOR).</li>
+                <li><span className="inline mr-2">✅</span>5 pasos para blindar tu valor y subir tus precios en 48 horas.</li>
+                <li><span className="inline mr-2">✅</span>Guía de Neuro-Persuasión para justificar tu Autoridad.</li>
+                <li><span className="inline mr-2">✅</span>Lista de chequeo de la Identidad que Cobra Caro (NEXOR).</li>
               </ul>
               <div className="bg-primary text-secondary p-2 sm:p-3 rounded-lg font-bold text-center text-xs sm:text-sm md:text-base">
                 VALORADO EN MÁS DE $47 USD GRATIS CON TU INSCRIPCIÓN
@@ -379,9 +379,9 @@ export default function Home() {
               </div>
               <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black mb-3 sm:mb-4 text-primary">Guía Rápida: Los 3 Errores de Ads que Desangran tu Capital</h3>
               <ul className="space-y-2 mb-4 sm:mb-6 text-gray-700 text-xs sm:text-sm md:text-base">
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Identifica y elimina los gastos de publicidad que no dan retorno.</li>
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Criterios para una inversión predecible.</li>
-                <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Asegura la rentabilidad de tu sistema 24/7.</li>
+                <li><span className="inline mr-2">✅</span>Identifica y elimina los gastos de publicidad que no dan retorno.</li>
+                <li><span className="inline mr-2">✅</span>Criterios para una inversión predecible.</li>
+                <li><span className="inline mr-2">✅</span>Asegura la rentabilidad de tu sistema 24/7.</li>
               </ul>
               <div className="bg-primary text-secondary p-2 sm:p-3 rounded-lg font-bold text-center text-xs sm:text-sm md:text-base">
                 VALORADO EN MÁS DE $27 USD GRATIS CON TU INSCRIPCIÓN
