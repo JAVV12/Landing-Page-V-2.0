@@ -27,7 +27,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-0">
           {/* Lado Izquierdo - Contador */}
           <div className="flex items-center space-x-1 sm:space-x-2 md:space-x-3">
-            <img src="https://img.icons8.com/ios-filled/24/ffffff/clock.png" alt="Reloj" className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 opacity-90" />
+            <span className="text-white opacity-90 text-lg sm:text-xl md:text-2xl">⏰</span>
             <div className="text-white text-xs sm:text-sm font-medium tracking-wide uppercase" style={{color: '#ffffff'}}>
               Tiempo Restante
             </div>
@@ -72,7 +72,6 @@ export default function Home() {
           {/* Badge principal */}
           <div className="mb-8">
             <span className="inline-block bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full text-sm sm:text-base md:text-lg font-bold shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/ios-filled/24/ffffff/graduation-cap.png" alt="Graduación" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
               <span className="whitespace-nowrap">FORMACIÓN 100% EN LÍNEA</span>
             </span>
           </div>
@@ -106,7 +105,7 @@ export default function Home() {
             <div className="bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 border-2 border-primary border-dashed shadow-lg">
                 <div className="text-center">
                   <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-lg">
-                    <img src="https://img.icons8.com/color/48/play.png" alt="Play" className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-secondary" />
+                    <span className="text-secondary font-bold text-xl">▶</span>
                   </div>
                 <p className="text-secondary font-bold text-sm sm:text-base md:text-lg">VSL Video - Próximamente</p>
                 <p className="text-gray-300 text-xs sm:text-sm md:text-base">La transformación que cambiará tu vida financiera</p>
@@ -138,7 +137,7 @@ export default function Home() {
             {/* Problema 2 */}
             <div className="bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-primary/20 hover-primary">
               <div className="flex items-center mb-4 sm:mb-5 md:mb-6">
-                <img src="https://img.icons8.com/ios-filled/48/ffffff/brain.png" alt="Cerebro" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3 md:mr-4" />
+                <span className="text-primary font-bold text-2xl mr-2 sm:mr-3 md:mr-4">🧠</span>
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary">LA CÁRCEL DEL EGO</h3>
               </div>
               <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
@@ -149,7 +148,7 @@ export default function Home() {
             {/* Problema 3 */}
             <div className="bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-primary/20 hover-primary">
               <div className="flex items-center mb-4 sm:mb-5 md:mb-6">
-                <img src="https://img.icons8.com/ios-filled/48/ffffff/time.png" alt="Reloj" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3 md:mr-4" />
+                <span className="text-primary font-bold text-2xl mr-2 sm:mr-3 md:mr-4">⏰</span>
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary">LA ESCLAVITUD 24/7</h3>
               </div>
               <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
@@ -160,7 +159,7 @@ export default function Home() {
             {/* Problema 4 */}
             <div className="bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-primary/20 hover-primary">
               <div className="flex items-center mb-4 sm:mb-5 md:mb-6">
-                <img src="https://img.icons8.com/ios-filled/48/ffffff/combo-chart.png" alt="Gráfico de crecimiento" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3 md:mr-4" />
+                <span className="text-primary font-bold text-2xl mr-2 sm:mr-3 md:mr-4">📈</span>
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary">INESTABILIDAD CRÓNICA</h3>
               </div>
               <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
@@ -250,18 +249,14 @@ export default function Home() {
             <div>
               <div className="bg-primary p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl text-secondary shadow-lg">
                 <div className="flex items-center mb-3 sm:mb-4">
-                  <img
-                    src="https://img.icons8.com/color/48/brain.png"
-                    alt="Icono de cerebro - Mentalidad y liderazgo"
-                    className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3"
-                  />
+                  <span className="text-secondary font-bold text-xl mr-2 sm:mr-3">🧠</span>
                   <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-black">MÓDULO 1: LA ANATOMÍA DEL EGO y la Marca Imparable (Fórmula #1)</h3>
                 </div>
                 <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 font-semibold">El módulo de Ruptura de Identidad</p>
                 <ul className="space-y-2 text-secondary/90 text-xs sm:text-sm md:text-base">
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />La mentalidad de autoridad para posicionarte como el único en el mercado.</li>
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />El guion exacto para subir tus precios HOY sin que tu cliente objete.</li>
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />El Workbook "Yo Soy Autoridad" para eliminar la voz interna que te limita.</li>
+                  <li><span className="inline mr-2">✅</span>La mentalidad de autoridad para posicionarte como el único en el mercado.</li>
+                  <li><span className="inline mr-2">✅</span>El guion exacto para subir tus precios HOY sin que tu cliente objete.</li>
+                  <li><span className="inline mr-2">✅</span>El Workbook "Yo Soy Autoridad" para eliminar la voz interna que te limita.</li>
                 </ul>
               </div>
             </div>
@@ -281,18 +276,14 @@ export default function Home() {
             <div>
               <div className="bg-primary p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl text-secondary shadow-lg">
                 <div className="flex items-center mb-3 sm:mb-4">
-                  <img
-                    src="https://img.icons8.com/color/48/money.png"
-                    alt="Icono de dinero - Finanzas y cash flow"
-                    className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3"
-                  />
+                  <span className="text-secondary font-bold text-xl mr-2 sm:mr-3">💰</span>
                   <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-black">MÓDULO 2: EL CASH FLOW SWITCH al 90% (Fórmula #2)</h3>
                 </div>
                 <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 font-semibold">Es el interruptor financiero… deteniendo toda fuga de capital.</p>
                 <ul className="space-y-2 text-secondary/90 text-xs sm:text-sm md:text-base">
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />La herramienta Cash Flow Switch (Plantilla) para auditar y controlar tu liquidez.</li>
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />La fórmula para asegurar que tu nómina te pague a TI primero y el doble.</li>
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />Cómo identificar las 5 fugas de gasto que te están desangrando.</li>
+                  <li><span className="inline mr-2">✅</span>La herramienta Cash Flow Switch (Plantilla) para auditar y controlar tu liquidez.</li>
+                  <li><span className="inline mr-2">✅</span>La fórmula para asegurar que tu nómina te pague a TI primero y el doble.</li>
+                  <li><span className="inline mr-2">✅</span>Cómo identificar las 5 fugas de gasto que te están desangrando.</li>
                 </ul>
               </div>
             </div>
@@ -312,17 +303,13 @@ export default function Home() {
             <div>
               <div className="bg-primary p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl text-secondary shadow-lg">
                 <div className="flex items-center mb-3 sm:mb-4">
-                  <img
-                    src="https://img.icons8.com/color/48/funnel.png"
-                    alt="Icono de embudo - Marketing y automatización"
-                    className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3"
-                  />
+                  <span className="text-secondary font-bold text-xl mr-2 sm:mr-3">📊</span>
                   <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-black">MÓDULO 3: EL EMBUDO INVISIBLE y la Venta Predictiva (Fórmula #3)</h3>
                 </div>
                 <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 font-semibold">Instalación de tu sistema 24/7… embudo automatizado…</p>
                 <ul className="space-y-2 text-secondary/90 text-xs sm:text-sm md:text-base">
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />El mapa para un Embudo Invisible que te agende citas calificadas sin escribir a nadie.</li>
-                  <li><img src="https://img.icons8.com/color/16/checkmark.png" alt="Check" className="inline w-4 h-4 mr-2" />El guion de conversión para transformar prospectos en clientes de alto valor.</li>
+                  <li><span className="inline mr-2">✅</span>El mapa para un Embudo Invisible que te agende citas calificadas sin escribir a nadie.</li>
+                  <li><span className="inline mr-2">✅</span>El guion de conversión para transformar prospectos en clientes de alto valor.</li>
                 </ul>
               </div>
             </div>
@@ -344,7 +331,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-dark mb-3 sm:mb-4 px-4">
-              <img src="https://img.icons8.com/color/48/gift.png" alt="Regalo" className="inline w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2 sm:mr-3 md:mr-4" />
+              <span className="inline mr-2 sm:mr-3 md:mr-4">🎁</span>
               Bonos Exclusivos
             </h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-primary font-bold px-4">
@@ -356,7 +343,7 @@ export default function Home() {
             {/* Bono 1 */}
             <div className="bg-secondary rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 transform hover:scale-105 transition-all duration-300 shadow-lg border border-primary animate-pulse-primary">
               <div className="text-center mb-4 sm:mb-5 md:mb-6">
-                <img src="https://img.icons8.com/color/48/diamond.png" alt="Diamante" className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 mx-auto" />
+                <span className="text-primary font-bold text-2xl">💎</span>
               </div>
               <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black mb-3 sm:mb-4 text-primary">Plantilla Maestra "Cash Flow Switch" (Fórmula #2)</h3>
               <ul className="space-y-2 mb-4 sm:mb-6 text-gray-700 text-xs sm:text-sm md:text-base">
@@ -372,7 +359,7 @@ export default function Home() {
             {/* Bono 2 */}
             <div className="bg-secondary rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 transform hover:scale-105 transition-all duration-300 shadow-lg border border-primary animate-pulse-primary">
               <div className="text-center mb-4 sm:mb-5 md:mb-6">
-                <img src="https://img.icons8.com/color/48/target.png" alt="Objetivo" className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 mx-auto" />
+                <span className="text-primary font-bold text-2xl">🎯</span>
               </div>
               <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black mb-3 sm:mb-4 text-primary">Checklist Anti-Competencia de Precios (Fórmula #1)</h3>
               <ul className="space-y-2 mb-4 sm:mb-6 text-gray-700 text-xs sm:text-sm md:text-base">
@@ -388,7 +375,7 @@ export default function Home() {
             {/* Bono 3 */}
             <div className="bg-secondary rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 transform hover:scale-105 transition-all duration-300 shadow-lg border border-primary animate-pulse-primary">
               <div className="text-center mb-4 sm:mb-5 md:mb-6">
-                <img src="https://img.icons8.com/color/48/combo-chart.png" alt="Gráfico" className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 mx-auto" />
+                <span className="text-primary font-bold text-2xl">📈</span>
               </div>
               <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black mb-3 sm:mb-4 text-primary">Guía Rápida: Los 3 Errores de Ads que Desangran tu Capital</h3>
               <ul className="space-y-2 mb-4 sm:mb-6 text-gray-700 text-xs sm:text-sm md:text-base">
@@ -419,7 +406,7 @@ export default function Home() {
 
           <div className="mb-8 sm:mb-10 md:mb-12">
             <a href="#checkout" className="btn-primary inline-block text-center animate-pulse-primary text-lg sm:text-xl md:text-2xl lg:text-3xl px-6 sm:px-10 md:px-12 lg:px-16 py-4 sm:py-6 md:py-7 lg:py-8">
-              <img src="https://img.icons8.com/color/32/rocket.png" alt="Cohete" className="inline w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mr-2" />
+              <span className="inline mr-2">🚀</span>
               <span className="whitespace-nowrap">INSCRIBIRME CON PAGO ÚNICO</span>
             </a>
           </div>
@@ -427,15 +414,15 @@ export default function Home() {
           {/* Badges de confianza */}
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
             <span className="bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/color/24/graduation-cap.png" alt="Graduación" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="inline mr-1 sm:mr-2">🎓</span>
               <span className="whitespace-nowrap">FORMACIÓN 100% EN LÍNEA</span>
             </span>
             <span className="bg-secondary text-dark px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/color/24/lightning-bolt.png" alt="Rayo" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="inline mr-1 sm:mr-2">⚡</span>
               <span className="whitespace-nowrap">ACCESO INMEDIATO</span>
             </span>
             <span className="bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/color/24/security-shield-green.png" alt="Escudo" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="inline mr-1 sm:mr-2">🛡️</span>
               <span className="whitespace-nowrap">GARANTÍA CERO RIESGO DE 7 DÍAS</span>
             </span>
           </div>
@@ -474,11 +461,11 @@ export default function Home() {
           <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-secondary mb-6 sm:mb-8 px-4">¿Necesitas Ayuda?</h2>
           <div className="space-y-4">
             <a href="mailto:CORREO@CORREO.COM" className="block text-primary hover:text-secondary text-base sm:text-lg md:text-xl font-semibold transition-colors">
-              <img src="https://img.icons8.com/color/24/email.png" alt="Email" className="inline w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+              <span className="inline mr-2">📧</span>
               <span className="break-words sm:break-normal">CORREO@CORREO.COM [IR A CORREO]</span>
             </a>
             <a href="https://instagram.com/user" className="block text-primary hover:text-secondary text-base sm:text-lg md:text-xl font-semibold transition-colors">
-              <img src="https://img.icons8.com/color/24/instagram.png" alt="Instagram" className="inline w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+              <span className="inline mr-2">📸</span>
               <span className="break-words sm:break-normal">@USER [IR A INSTAGRAM]</span>
             </a>
           </div>
@@ -495,7 +482,7 @@ export default function Home() {
 
           <div className="mb-8">
             <a href="#pricing" className="inline-block bg-dark text-secondary font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl px-6 sm:px-8 md:px-12 lg:px-16 py-4 sm:py-5 md:py-6 lg:py-7 xl:py-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 text-center">
-              <img src="https://img.icons8.com/color/32/fire-element.png" alt="Fuego" className="inline w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 mr-2" />
+              <span className="inline mr-2">🔥</span>
               <span className="whitespace-nowrap">INSCRIBIRME AHORA</span>
             </a>
           </div>
