@@ -71,9 +71,9 @@ export default function Home() {
         <div className="relative max-w-6xl mx-auto text-center">
           {/* Badge principal */}
           <div className="mb-8">
-            <span className="inline-block bg-primary text-secondary px-6 py-3 rounded-full text-lg font-bold shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/ios-filled/24/ffffff/graduation-cap.png" alt="Graduación" className="inline w-6 h-6 mr-2" />
-              FORMACIÓN 100% EN LÍNEA
+            <span className="inline-block bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full text-sm sm:text-base md:text-lg font-bold shadow-lg animate-pulse-primary">
+              <img src="https://img.icons8.com/ios-filled/24/ffffff/graduation-cap.png" alt="Graduación" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="whitespace-nowrap">FORMACIÓN 100% EN LÍNEA</span>
             </span>
           </div>
 
@@ -96,7 +96,7 @@ export default function Home() {
 
           {/* CTA principal */}
           <div className="mb-8">
-            <a href="#pricing" className="btn-primary">
+            <a href="#pricing" className="btn-primary inline-block text-center">
               QUIERO LIBERAR MI FLUJO DE CAJA
             </a>
           </div>
@@ -418,25 +418,25 @@ export default function Home() {
           </div>
 
           <div className="mb-12">
-            <a href="#checkout" className="btn-primary text-3xl px-16 py-8 animate-pulse-primary">
-              <img src="https://img.icons8.com/color/32/rocket.png" alt="Cohete" className="inline w-8 h-8 mr-2" />
-              INSCRIBIRME CON PAGO ÚNICO
+            <a href="#checkout" className="btn-primary inline-block text-center animate-pulse-primary text-lg sm:text-xl md:text-2xl lg:text-3xl px-6 sm:px-10 md:px-12 lg:px-16 py-4 sm:py-6 md:py-7 lg:py-8">
+              <img src="https://img.icons8.com/color/32/rocket.png" alt="Cohete" className="inline w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mr-2" />
+              <span className="whitespace-nowrap">INSCRIBIRME CON PAGO ÚNICO</span>
             </a>
           </div>
 
           {/* Badges de confianza */}
-          <div className="flex flex-wrap justify-center gap-6">
-            <span className="bg-primary text-secondary px-6 py-3 rounded-full font-bold text-lg shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/color/24/graduation-cap.png" alt="Graduación" className="inline w-6 h-6 mr-2" />
-              FORMACIÓN 100% EN LÍNEA
+          <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
+            <span className="bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
+              <img src="https://img.icons8.com/color/24/graduation-cap.png" alt="Graduación" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="whitespace-nowrap">FORMACIÓN 100% EN LÍNEA</span>
             </span>
-            <span className="bg-secondary text-dark px-6 py-3 rounded-full font-bold text-lg shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/color/24/lightning-bolt.png" alt="Rayo" className="inline w-6 h-6 mr-2" />
-              ACCESO INMEDIATO
+            <span className="bg-secondary text-dark px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
+              <img src="https://img.icons8.com/color/24/lightning-bolt.png" alt="Rayo" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="whitespace-nowrap">ACCESO INMEDIATO</span>
             </span>
-            <span className="bg-primary text-secondary px-6 py-3 rounded-full font-bold text-lg shadow-lg animate-pulse-primary">
-              <img src="https://img.icons8.com/color/24/security-shield-green.png" alt="Escudo" className="inline w-6 h-6 mr-2" />
-              GARANTÍA CERO RIESGO DE 7 DÍAS
+            <span className="bg-primary text-secondary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-base lg:text-lg shadow-lg animate-pulse-primary">
+              <img src="https://img.icons8.com/color/24/security-shield-green.png" alt="Escudo" className="inline w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-1 sm:mr-2" />
+              <span className="whitespace-nowrap">GARANTÍA CERO RIESGO DE 7 DÍAS</span>
             </span>
           </div>
         </div>
@@ -473,13 +473,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-secondary mb-8">¿Necesitas Ayuda?</h2>
           <div className="space-y-4">
-            <a href="mailto:CORREO@CORREO.COM" className="block text-primary hover:text-secondary text-xl font-semibold transition-colors">
-              <img src="https://img.icons8.com/color/24/email.png" alt="Email" className="inline w-6 h-6 mr-2" />
-              CORREO@CORREO.COM [IR A CORREO]
+            <a href="mailto:CORREO@CORREO.COM" className="block text-primary hover:text-secondary text-base sm:text-lg md:text-xl font-semibold transition-colors">
+              <img src="https://img.icons8.com/color/24/email.png" alt="Email" className="inline w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+              <span className="break-words sm:break-normal">CORREO@CORREO.COM [IR A CORREO]</span>
             </a>
-            <a href="https://instagram.com/user" className="block text-primary hover:text-secondary text-xl font-semibold transition-colors">
-              <img src="https://img.icons8.com/color/24/instagram.png" alt="Instagram" className="inline w-6 h-6 mr-2" />
-              @USER [IR A INSTAGRAM]
+            <a href="https://instagram.com/user" className="block text-primary hover:text-secondary text-base sm:text-lg md:text-xl font-semibold transition-colors">
+              <img src="https://img.icons8.com/color/24/instagram.png" alt="Instagram" className="inline w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+              <span className="break-words sm:break-normal">@USER [IR A INSTAGRAM]</span>
             </a>
           </div>
         </div>
@@ -494,9 +494,9 @@ export default function Home() {
           </h2>
 
           <div className="mb-8">
-            <a href="#pricing" className="inline-block bg-dark text-secondary font-bold text-3xl px-16 py-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
-              <img src="https://img.icons8.com/color/32/fire-element.png" alt="Fuego" className="inline w-8 h-8 mr-2" />
-              INSCRIBIRME AHORA
+            <a href="#pricing" className="inline-block bg-dark text-secondary font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl px-6 sm:px-8 md:px-12 lg:px-16 py-4 sm:py-5 md:py-6 lg:py-7 xl:py-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 text-center">
+              <img src="https://img.icons8.com/color/32/fire-element.png" alt="Fuego" className="inline w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 mr-2" />
+              <span className="whitespace-nowrap">INSCRIBIRME AHORA</span>
             </a>
           </div>
 
@@ -511,10 +511,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <p className="text-gray-400 mb-4">© 2024 Método Néxor. Todos los derechos reservados.</p>
-            <div className="flex justify-center space-x-6">
-              <a href="/privacidad" className="text-gray-400 hover:text-primary transition-colors">Política de Privacidad</a>
-              <a href="/terminos" className="text-gray-400 hover:text-primary transition-colors">Términos y Condiciones</a>
-              <a href="/contacto" className="text-gray-400 hover:text-primary transition-colors">Contacto</a>
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
+              <a href="/privacidad" className="text-gray-400 hover:text-primary transition-colors text-sm sm:text-base">Política de Privacidad</a>
+              <a href="/terminos" className="text-gray-400 hover:text-primary transition-colors text-sm sm:text-base">Términos y Condiciones</a>
+              <a href="/contacto" className="text-gray-400 hover:text-primary transition-colors text-sm sm:text-base">Contacto</a>
             </div>
           </div>
         </div>

@@ -38,9 +38,9 @@ export const Button = ({
 
   const sizeClasses = {
     sm: 'px-3 py-2 text-sm rounded-md',
-    md: 'px-4 py-3 text-base rounded-lg',
-    lg: 'px-6 py-4 text-lg rounded-lg',
-    xl: 'px-8 py-5 text-xl rounded-xl'
+    md: 'px-4 py-2 sm:px-5 sm:py-3 text-sm sm:text-base rounded-lg',
+    lg: 'px-5 py-3 sm:px-6 sm:py-4 text-base sm:text-lg rounded-lg',
+    xl: 'px-6 py-4 sm:px-8 sm:py-5 text-lg sm:text-xl md:text-2xl rounded-xl'
   };
 
   const buttonClasses = cn(

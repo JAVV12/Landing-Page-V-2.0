@@ -16,21 +16,30 @@
     animation: shake-glow 1.5s ease-in-out infinite;
   }
 
-  /* Responsive sizes */
-  @media (max-width: 640px) {
+  /* Responsive sizes - Mobile First */
+  .btn-primary {
+    @apply py-3 px-6 text-base;
+  }
+
+  @media (min-width: 375px) {
     .btn-primary {
       @apply py-3 px-8 text-lg;
-      font-size: 18px;
     }
   }
 
-  @media (min-width: 641px) and (max-width: 1024px) {
+  @media (min-width: 640px) {
     .btn-primary {
       @apply py-4 px-10 text-xl;
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
+    .btn-primary {
+      @apply py-5 px-12 text-xl;
+    }
+  }
+
+  @media (min-width: 1280px) {
     .btn-primary {
       @apply py-5 px-12 text-2xl;
     }
