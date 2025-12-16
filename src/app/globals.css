@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🎯 COMPONENTES PERSONALIZADOS */
+
+@layer components {
+  /* Botones principales - Ultra Dopaminico y Responsivo */
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-red-600 text-white font-bold rounded-full;
+    @apply transform transition-all duration-300 ease-out;
+    @apply hover:from-red-600 hover:to-primary hover:scale-110 hover:rotate-1;
+    @apply active:scale-95 active:rotate-0;
+    @apply shadow-2xl hover:shadow-primary;
+    box-shadow: 0 0 30px rgba(200, 29, 26, 0.6);
+    animation: shake-glow 1.5s ease-in-out infinite;
+  }
+
+  /* Responsive sizes */
+  @media (max-width: 640px) {
+    .btn-primary {
+      @apply py-3 px-8 text-lg;
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .btn-primary {
+      @apply py-4 px-10 text-xl;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .btn-primary {
+      @apply py-5 px-12 text-2xl;
+    }
+  }
+
+  /* Animaciones */
+  .animate-pulse-primary {
+    animation: pulse-primary 2s infinite;
+  }
+}
+
+@keyframes pulse-primary {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes shake-glow {
+  0%, 100% {
+    transform: translateX(0) scale(1);
+    box-shadow: 0 0 30px rgba(200, 29, 26, 0.6);
+  }
+  25% {
+    transform: translateX(-3px) scale(1.02) rotate(-0.5deg);
+    box-shadow: 0 0 40px rgba(200, 29, 26, 0.8), 0 0 60px rgba(251, 191, 36, 0.4);
+  }
+  50% {
+    transform: translateX(0) scale(1.05);
+    box-shadow: 0 0 50px rgba(200, 29, 26, 1), 0 0 80px rgba(251, 191, 36, 0.6);
+  }
+  75% {
+    transform: translateX(3px) scale(1.02) rotate(0.5deg);
+    box-shadow: 0 0 40px rgba(200, 29, 26, 0.8), 0 0 60px rgba(251, 191, 36, 0.4);
+  }
+}
